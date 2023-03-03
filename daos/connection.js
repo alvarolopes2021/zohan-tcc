@@ -7,9 +7,9 @@ module.exports.connectionStringHeroku = {
     user: process.env.USER,
     password: process.env.PSW,
     port: process.env.DB_PORT,
-    /*ssl: {
+    ssl: {
         rejectUnauthorized: false
-    }*/
+    }
 }; 
 
 module.exports.connectionStringSupabase = {
@@ -18,7 +18,7 @@ module.exports.connectionStringSupabase = {
     user: process.env.USER_SUPABASE,
     password: process.env.PSW_SUPABASE,
     port: process.env.DB_PORT,
-    /*ssl: {
+    ssl: {
         rejectUnauthorized: false
-    }*/
+    }
 };
